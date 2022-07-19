@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&family=Lora:ital@1&display=swap');
+
+body {
+    font-family: "Joan", sans-serif;
+    overflow-x: hidden;
+}
+
+#menu a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+#menu button {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.carousel-inner {
+    max-height: 39rem;
+}
+
+.mapa {
+    background: url()
+}
+
+
+
+
+@media (max-width:768px) {
+    #intro, #equipo{
+        width: 90% !important;
+    }
+    .servicio-fila {
+        width: 100% !important;
+        text-align: center;
+
+    }
+}
